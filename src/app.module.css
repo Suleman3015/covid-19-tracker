@@ -1,0 +1,21 @@
+body {
+  background-color: #fafad2;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+image {
+  width: 370px;
+  margin-top: 50%;
+}
+
+@media (max-width: 720px) {
+  .container {
+    margin: 0 10%;
+  }
+}
